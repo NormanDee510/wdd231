@@ -1,0 +1,15 @@
+/* larger.css (media query) */
+@media (min-width: 768px) {
+    #menuButton {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .course-card {
+        width: calc(33% - 1rem);
+    }
+}
