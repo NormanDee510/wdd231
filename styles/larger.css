@@ -1,15 +1,30 @@
-/* larger.css (media query) */
+/* Desktop styles */
 @media (min-width: 768px) {
+    /* Navigation */
     #menuButton {
         display: none;
     }
 
     nav ul {
         display: flex;
+        justify-content: space-around;
         gap: 2rem;
     }
 
+    /* Course Grid */
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
     .course-card {
-        width: calc(33% - 1rem);
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
