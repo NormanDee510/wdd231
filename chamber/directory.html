@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Johannesburg Chamber of Commerce Directory">
+    <meta name="author" content="Newman Demba">
+    <meta property="og:title" content="Johannesburg Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://www.johannesburgchamber.com/directory">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Johannesburg Chamber of Commerce - Directory</title>
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/small.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Johannesburg Chamber</div>
+        <button id="menuButton">☰</button>
+        <nav>
+            <ul id="navList">
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="directory">
+            <h1>Business Directory</h1>
+            <button id="toggleView">Toggle View (Grid/List)</button>
+            <div id="membersList" class="grid-view">
+                <!--to dynamically insert Members here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Johannesburg Chamber of Commerce</p>
+        <p>Contact us at: info@johannesburgchamber.co.za</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
