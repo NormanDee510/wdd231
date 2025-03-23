@@ -1,6 +1,123 @@
-/* Desktop styles */
+/* Base Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #004d40;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #004d40;
+}
+
+nav ul li {
+    padding: 0.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #e0f2f1;
+    padding: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+/* CTA Section */
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cta a {
+    background-color: #004d40;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta a:hover {
+    background-color: #00695c;
+}
+
+/* Weather & Spotlights */
+.weather, .spotlights {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.weather h2, .spotlights h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive Navigation */
 @media (min-width: 768px) {
-    /* Navigation */
     #menuButton {
         display: none;
     }
@@ -9,13 +126,30 @@
         display: flex;
         justify-content: space-around;
         gap: 2rem;
+        background: none;
     }
 
-    /* Course Grid */
+    nav ul li {
+        padding: 0;
+    }
+}
+
+/* Course Grid - example retained */
+.courses {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.course-card {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
     .courses {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
     }
 
     .course-card {
@@ -27,4 +161,24 @@
     .courses {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+/* Spotlight Member Styles */
+#spotlight-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.spotlight-card {
+    background-color: #e0f2f1;
+    padding: 1rem;
+    flex: 1 1 calc(33% - 2rem);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.spotlight-card img {
+    max-width: 100%;
+    border-radius: 5px;
 }
