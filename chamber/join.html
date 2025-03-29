@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="styles/join.css">
 </head>
 <body>
+    <header>
+        <h1>Join Our Chamber of Commerce</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
     <div class="container">
         <h2>Join Our Chamber</h2>
         <form id="joinForm" action="thankyou.html" method="GET">
@@ -15,6 +23,11 @@
             <label>Email: <input type="email" name="email" required></label>
             <label>Mobile Phone: <input type="tel" name="mobile" required></label>
             <label>Business Name: <input type="text" name="organization" required></label>
+            <label>Address: <input type="text" name="address" required></label>
+            <label>City: <input type="text" name="city" required></label>
+            <label>State: <input type="text" name="state" required></label>
+            <label>Zip Code: <input type="text" name="zip" required></label>
+            <label>Country: <input type="text" name="country" required></label>
             <label>Membership Level:
                 <select name="membership" required>
                     <option value="NP">NP Membership</option>
@@ -38,10 +51,9 @@
         <div class="card"><h3>Gold Membership</h3><p>Exclusive Perks</p><a href="#" class="modal-link" data-modal="goldModal">Learn More</a></div>
     </div>
     
-    <div id="npModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>NP Membership</h2><p>No fees for non-profits.</p></div></div>
-    <div id="bronzeModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Bronze Membership</h2><p>Basic benefits included.</p></div></div>
-    <div id="silverModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Silver Membership</h2><p>Includes promotions & discounts.</p></div></div>
-    <div id="goldModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Gold Membership</h2><p>Exclusive perks & training.</p></div></div>
+    <footer>
+        <p>&copy; 2024 Chamber of Commerce. All Rights Reserved.</p>
+    </footer>
     <script src="scripts/join.js"></script>
 </body>
 </html>
