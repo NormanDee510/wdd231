@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Chamber</title>
+    <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Join Our Chamber</h2>
+        <form id="joinForm" action="thankyou.html" method="GET">
+            <label>First Name: <input type="text" name="first-name" required></label>
+            <label>Last Name: <input type="text" name="last-name" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Mobile Phone: <input type="tel" name="mobile" required></label>
+            <label>Business Name: <input type="text" name="organization" required></label>
+            <label>Membership Level:
+                <select name="membership" required>
+                    <option value="NP">NP Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+            <label>Business Description:
+                <textarea name="description"></textarea>
+            </label>
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input type="submit" value="Join Now">
+        </form>
+    </div>
+    
+    <div class="membership-cards">
+        <div class="card"><h3>NP Membership</h3><p>No Fee</p><a href="#" class="modal-link" data-modal="npModal">Learn More</a></div>
+        <div class="card"><h3>Bronze Membership</h3><p>Basic Benefits</p><a href="#" class="modal-link" data-modal="bronzeModal">Learn More</a></div>
+        <div class="card"><h3>Silver Membership</h3><p>Promotions & Discounts</p><a href="#" class="modal-link" data-modal="silverModal">Learn More</a></div>
+        <div class="card"><h3>Gold Membership</h3><p>Exclusive Perks</p><a href="#" class="modal-link" data-modal="goldModal">Learn More</a></div>
+    </div>
+    
+    <div id="npModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>NP Membership</h2><p>No fees for non-profits.</p></div></div>
+    <div id="bronzeModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Bronze Membership</h2><p>Basic benefits included.</p></div></div>
+    <div id="silverModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Silver Membership</h2><p>Includes promotions & discounts.</p></div></div>
+    <div id="goldModal" class="modal"><div class="modal-content"><span class="close">&times;</span><h2>Gold Membership</h2><p>Exclusive perks & training.</p></div></div>
+    <script src="scripts/join.js"></script>
+</body>
+</html>

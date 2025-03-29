@@ -67,6 +67,26 @@ async function getForecast() {
         console.error('Forecast fetch error:', error);
     }
 }
+document.querySelectorAll('.modal-link').forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById(this.dataset.modal).style.display = 'block';
+    });
+});
+
+document.querySelectorAll('.close').forEach(btn => {
+    btn.addEventListener('click', function() {
+        this.parentElement.parentElement.style.display = 'none';
+    });
+});
+const params = new URLSearchParams(window.location.search);
+document.getElementById('first-name').textContent = params.get('first-name');
+document.getElementById('last-name').textContent = params.get('last-name');
+document.getElementById('email').textContent = params.get('email');
+document.getElementById('mobile').textContent = params.get('mobile');
+document.getElementById('organization').textContent = params.get('organization');
+document.getElementById('timestamp').textContent = params.get('timestamp');
+
 
 getWeather();
 getForecast();
