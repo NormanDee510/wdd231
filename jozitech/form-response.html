@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting JoziTech. Your message has been received and we'll get back to you shortly.">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="JoziTech - Message Received">
+    <meta property="og:description" content="Thank you for contacting JoziTech">
+    <meta property="og:image" content="images/social-preview.jpg">
+    <meta property="og:url" content="https://yourusername.github.io/wdd231/jozitech/form-response.html">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>JoziTech - Message Received</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body id="form-response">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="JoziTech Logo">
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            
+            <nav>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="cart-icon">
+                <a href="cart.html">
+                    <img src="images/icons/cart.svg" alt="Shopping Cart">
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="response-container">
+            <div class="response-card">
+                <div class="response-icon">
+                    <img src="images/icons/check-circle.svg" alt="Success">
+                </div>
+                <div id="form-response-content">
+                    <!-- This will be populated by JavaScript -->
+                    <h1>Thank You!</h1>
+                    <p>We're processing your submission...</p>
+                </div>
+                <div class="response-actions">
+                    <a href="index.html" class="btn primary">Return to Home</a>
+                    <a href="products.html" class="btn secondary">Browse Products</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>JoziTech</h3>
+                <p>Your premium electronics store in Johannesburg, offering the latest tech gadgets and accessories.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="products.html?category=laptops">Laptops</a></li>
+                    <li><a href="products.html?category=smartphones">Smartphones</a></li>
+                    <li><a href="products.html?category=accessories">Accessories</a></li>
+                    <li><a href="products.html?category=smart-devices">Smart Devices</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <address>
+                    <p>123 Tech Street</p>
+                    <p>Sandton, Johannesburg</p>
+                    <p>South Africa</p>
+                    <p><a href="tel:+27123456789">+27 12 345 6789</a></p>
+                    <p><a href="mailto:info@jozitech.co.za">info@jozitech.co.za</a></p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2023</span> JoziTech. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript modules -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

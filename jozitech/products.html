@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse JoziTech's extensive collection of laptops, smartphones, accessories and smart devices. Find the perfect tech for your needs.">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="JoziTech - Shop Electronics & Gadgets">
+    <meta property="og:description" content="Browse our extensive collection of electronics and gadgets">
+    <meta property="og:image" content="images/social-preview.jpg">
+    <meta property="og:url" content="https://yourusername.github.io/wdd231/jozitech/products.html">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <title>JoziTech - Shop Electronics & Gadgets</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body id="products">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="JoziTech Logo">
+                </a>
+            </div>
+            
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+                <span class="sr-only">Menu</span>
+            </button>
+            
+            <nav>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="cart-icon">
+                <a href="cart.html">
+                    <img src="images/icons/cart.svg" alt="Shopping Cart">
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="products-container">
+            <h1 id="products-title">All Products</h1>
+            
+            <div class="products-layout">
+                <!-- Sidebar with filters -->
+                <aside class="product-filters">
+                    <div class="filter-group">
+                        <h2>Categories</h2>
+                        <ul class="category-filters">
+                            <li>
+                                <a href="products.html" class="filter-link active" data-category="all">All Products</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=laptops" class="filter-link" data-category="laptops">Laptops</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=smartphones" class="filter-link" data-category="smartphones">Smartphones</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=accessories" class="filter-link" data-category="accessories">Accessories</a>
+                            </li>
+                            <li>
+                                <a href="products.html?category=smart-devices" class="filter-link" data-category="smart-devices">Smart Devices</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h2>Price Range</h2>
+                        <div class="price-filters">
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="0-1000">
+                                <span>Under R1,000</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="1000-5000">
+                                <span>R1,000 - R5,000</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="5000-10000">
+                                <span>R5,000 - R10,000</span>
+                            </label>
+                            <label class="filter-checkbox">
+                                <input type="checkbox" name="price" value="10000-999999">
+                                <span>Over R10,000</span>
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+                
+                <!-- Product grid -->
+                <div class="products-grid">
+                    <!-- Products will be loaded dynamically -->
+                    <div class="loading">Loading products...</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>JoziTech</h3>
+                <p>Your premium electronics store in Johannesburg, offering the latest tech gadgets and accessories.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><img src="images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="images/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="Twitter"><img src="images/icons/twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="products.html?category=laptops">Laptops</a></li>
+                    <li><a href="products.html?category=smartphones">Smartphones</a></li>
+                    <li><a href="products.html?category=accessories">Accessories</a></li>
+                    <li><a href="products.html?category=smart-devices">Smart Devices</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <address>
+                    <p>123 Tech Street</p>
+                    <p>Sandton, Johannesburg</p>
+                    <p>South Africa</p>
+                    <p><a href="tel:+27123456789">+27 12 345 6789</a></p>
+                    <p><a href="mailto:info@jozitech.co.za">info@jozitech.co.za</a></p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2023</span> JoziTech. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- JavaScript modules -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+{
+  "products": [
+    {
+      "id": "laptop-001",
+      "name": "ProBook X5",
+      "description": "Ultra-thin laptop with 16GB RAM, 512GB SSD, and a stunning 15.6-inch display. Perfect for professionals and creatives.",
+      "price": 12999,
+      "category": "laptops",
+      "image": "laptop-001.jpg",
+      "featured": true,
+      "stock": 15,
+      "rating": 4.7,
+      "specs": {
+        "processor": "Intel Core i7-11th Gen",
+        "memory": "16GB DDR4",
+        "storage": "512GB NVMe SSD",
+        "display": "15.6-inch FHD IPS",
+        "graphics": "Intel Iris Xe Graphics",
+        "battery": "Up to 10 hours",
+        "os": "Windows 11 Pro"
+      }
+    },
+    {
+      "id": "smartphone-001",
+      "name": "Galaxy Ultra",
+      "description": "Flagship smartphone with 108MP camera, 5G connectivity, and all-day battery life. Experience the future of mobile technology.",
+      "price": 18999,
+      "category": "smartphones",
+      "image": "smartphone-001.jpg",
+      "featured": true,
+      "stock": 20,
+      "rating": 4.9,
+      "specs": {
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "camera": "108MP main, 12MP ultrawide, 10MP telephoto",
+        "battery": "5000mAh",
+        "os": "Android 13"
+      }
+    },
+    {
+      "id": "headphones-001",
+      "name": "SoundWave Pro",
+      "description": "Wireless noise-cancelling headphones with 30-hour battery life and premium sound quality. Immerse yourself in your music.",
+      "price": 3499,
+      "category": "accessories",
+      "image": "headphones-001.jpg",
+      "featured": true,
+      "stock": 30,
+      "rating": 4.6,
+      "specs": {
+        "type": "Over-ear",
+        "connectivity": "Bluetooth 5.2",
+        "battery": "30 hours",
+        "features": "Active Noise Cancellation, Ambient Mode",
+        "charging": "USB-C",
+        "weight": "250g"
+      }
+    },
+    {
+      "id": "smartwatch-001",
+      "name": "FitTrack X1",
+      "description": "Advanced smartwatch with health tracking, GPS, and 7-day battery life. Stay connected and monitor your fitness goals.",
+      "price": 4299,
+      "category": "smart-devices",
+      "image": "smartwatch-001.jpg",
+      "featured": true,
+      "stock": 25,
+      "rating": 4.5,
+      "specs": {
+        "display": "1.4-inch AMOLED",
+        "sensors": "Heart rate, SpO2, accelerometer, gyroscope",
+        "battery": "7 days typical use",
+        "water_resistance": "5 ATM",
+        "connectivity": "Bluetooth 5.0, GPS",
+        "compatibility": "Android, iOS"
+      }
+    },
+    {
+      "id": "tablet-001",
+      "name": "SlateTab Pro",
+      "description": "Premium tablet with 10.9-inch display, perfect for work and entertainment. Powerful performance in a sleek design.",
+      "price": 8999,
+      "category": "tablets",
+      "image": "tablet-001.jpg",
+      "stock": 18,
+      "rating": 4.4,
+      "specs": {
+        "processor": "A14 Bionic",
+        "memory": "8GB RAM",
+        "storage": "128GB",
+        "display": "10.9-inch Liquid Retina",
+        "battery": "Up to 10 hours",
+        "camera": "12MP rear, 7MP front",
+        "os": "iPadOS 16"
+      }
+    },
+    {
+      "id": "speaker-001",
+      "name": "BoomBox Mini",
+      "description": "Portable Bluetooth speaker with 360° sound and 20-hour battery life. Take your music anywhere with this compact powerhouse.",
+      "price": 1899,
+      "category": "accessories",
+      "image": "speaker-001.jpg",
+      "stock": 40,
+      "rating": 4.3,
+      "specs": {
+        "type": "Portable Bluetooth Speaker",
+        "connectivity": "Bluetooth 5.1",
+        "battery": "20 hours",
+        "features": "360° sound, waterproof IPX7",
+        "charging": "USB-C",
+        "weight": "550g"
+      }
+    },
+    {
+      "id": "laptop-002",
+      "name": "UltraBook Air",
+      "description": "Lightweight laptop weighing just 1.2kg with all-day battery life. The perfect companion for professionals on the go.",
+      "price": 14999,
+      "category": "laptops",
+      "image": "laptop-002.jpg",
+      "stock": 12,
+      "rating": 4.6,
+      "specs": {
+        "processor": "AMD Ryzen 7 5800U",
+        "memory": "16GB LPDDR4X",
+        "storage": "1TB NVMe SSD",
+        "display": "14-inch 2.8K OLED",
+        "graphics": "AMD Radeon Graphics",
+        "battery": "Up to 12 hours",
+        "os": "Windows 11 Home"
+      }
+    },
+    {
+      "id": "smartphone-002",
+      "name": "iPhoneX Pro",
+      "description": "Latest flagship phone with advanced camera system and powerful performance. Redefine what's possible with a smartphone.",
+      "price": 19999,
+      "category": "smartphones",
+      "image": "smartphone-002.jpg",
+      "stock": 15,
+      "rating": 4.8,
+      "specs": {
+        "processor": "A16 Bionic",
+        "memory": "8GB RAM",
+        "storage": "256GB",
+        "display": "6.7-inch Super Retina XDR",
+        "camera": "48MP main, 12MP ultrawide, 12MP telephoto",
+        "battery": "4323mAh",
+        "os": "iOS 16"
+      }
+    },
+    {
+      "id": "earbuds-001",
+      "name": "AirPods Pro",
+      "description": "True wireless earbuds with active noise cancellation and spatial audio. Experience immersive sound in a compact design.",
+      "price": 3999,
+      "category": "accessories",
+      "image": "earbuds-001.jpg",
+      "stock": 35,
+      "rating": 4.7,
+      "specs": {
+        "type": "True Wireless Earbuds",
+        "connectivity": "Bluetooth 5.0",
+        "battery": "4.5 hours (24 hours with case)",
+        "features": "Active Noise Cancellation, Transparency Mode, Spatial Audio",
+        "charging": "Wireless Charging Case",
+        "water_resistance": "IPX4"
+      }
+    },
+    {
+      "id": "smarttv-001",
+      "name": "Crystal UHD TV",
+      "description": "55-inch 4K Smart TV with HDR and built-in streaming apps. Transform your living room into a home theater.",
+      "price": 9999,
+      "category": "smart-devices",
+      "image": "smarttv-001.jpg",
+      "stock": 10,
+      "rating": 4.5,
+      "specs": {
+        "display": "55-inch 4K UHD",
+        "resolution": "3840 x 2160",
+        "features": "HDR10+, Smart TV, Voice Assistant",
+        "connectivity": "Wi-Fi, Bluetooth, HDMI x3, USB x2",
+        "audio": "20W 2.0 Channel",
+        "smart_platform": "Tizen OS"
+      }
+    },
+    {
+      "id": "camera-001",
+      "name": "ProShot DSLR",
+      "description": "Professional DSLR camera with 24.2MP sensor and 4K video recording. Capture life's moments with exceptional clarity.",
+      "price": 15999,
+      "category": "accessories",
+      "image": "camera-001.jpg",
+      "stock": 8,
+      "rating": 4.8,
+      "specs": {
+        "sensor": "24.2MP APS-C CMOS",
+        "processor": "EXPEED 6",
+        "iso_range": "100-51,200",
+        "video": "4K UHD at 30fps",
+        "autofocus": "51-point AF system",
+        "connectivity": "Wi-Fi, Bluetooth",
+        "battery": "Up to 1,550 shots per charge"
+      }
+    },
+    {
+      "id": "gaming-console-001",
+      "name": "GameStation 5",
+      "description": "Next-generation gaming console with ray tracing, 4K gaming, and ultra-fast loading. Experience gaming like never before.",
+      "price": 11999,
+      "category": "smart-devices",
+      "image": "gaming-console-001.jpg",
+      "stock": 5,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "8-core AMD Zen 2",
+        "gpu": "10.28 TFLOPS, AMD RDNA 2",
+        "memory": "16GB GDDR6",
+        "storage": "825GB SSD",
+        "resolution": "Up to 4K at 120Hz",
+        "features": "Ray Tracing, 3D Audio, HDR"
+      }
+    },
+    {
+      "id": "monitor-001",
+      "name": "UltraWide Monitor",
+      "description": "34-inch curved ultrawide monitor with 144Hz refresh rate and 1ms response time. Elevate your work and gaming experience.",
+      "price": 7999,
+      "category": "accessories",
+      "image": "monitor-001.jpg",
+      "stock": 15,
+      "rating": 4.6,
+      "specs": {
+        "display": "34-inch Curved UltraWide",
+        "resolution": "3440 x 1440 WQHD",
+        "refresh_rate": "144Hz",
+        "response_time": "1ms",
+        "panel_type": "VA",
+        "features": "HDR10, FreeSync Premium",
+        "connectivity": "HDMI x2, DisplayPort, USB Hub"
+      }
+    },
+    {
+      "id": "router-001",
+      "name": "SpeedMesh Pro",
+      "description": "Tri-band mesh Wi-Fi system for whole-home coverage up to 5,000 sq ft. Eliminate dead zones and enjoy fast, reliable internet.",
+      "price": 4499,
+      "category": "smart-devices",
+      "image": "router-001.jpg",
+      "stock": 20,
+      "rating": 4.5,
+      "specs": {
+        "type": "Mesh Wi-Fi System (3-pack)",
+        "coverage": "Up to 5,000 sq ft",
+        "speed": "AX5400 (5.4 Gbps)",
+        "bands": "Tri-band",
+        "ports": "Gigabit Ethernet x2 per unit",
+        "security": "WPA3, Guest Network"
+      }
+    },
+    {
+      "id": "keyboard-001",
+      "name": "MechMaster RGB",
+      "description": "Mechanical gaming keyboard with RGB lighting and programmable keys. Gain the competitive edge with precision typing.",
+      "price": 1699,
+      "category": "accessories",
+      "image": "keyboard-001.jpg",
+      "stock": 25,
+      "rating": 4.4,
+      "specs": {
+        "type": "Mechanical Keyboard",
+        "switches": "Blue Mechanical Switches",
+        "layout": "Full-size with Numpad",
+        "features": "RGB Lighting, Programmable Keys, Macro Support",
+        "connectivity": "USB-C Detachable Cable",
+        "compatibility": "Windows, macOS, Linux"
+      }
+    },
+    {
+      "id": "smartspeaker-001",
+      "name": "EchoSphere",
+      "description": "Smart speaker with voice assistant and premium sound quality. Control your smart home and enjoy music with simple voice commands.",
+      "price": 1999,
+      "category": "smart-devices",
+      "image": "smartspeaker-001.jpg",
+      "stock": 30,
+      "rating": 4.3,
+      "specs": {
+        "audio": "360° sound with dual 2-inch drivers",
+        "microphones": "6-mic array for far-field voice recognition",
+        "connectivity": "Wi-Fi, Bluetooth",
+        "compatibility": "Works with major smart home platforms",
+        "features": "Voice Assistant, Smart Home Control, Multi-room Audio"
+      }
+    }
+  ]
+}
